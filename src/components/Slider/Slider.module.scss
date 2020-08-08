@@ -1,0 +1,35 @@
+.sliderWrapper {
+  width: 315px;
+  min-height: 100px;
+  position: relative;
+  padding: 0 30px 0 30px;
+  margin: 30px auto 0 auto;
+
+  h2 {
+    color: #fff;
+    font-size: calc(20px + 16 * ((100vw - 320px) / (1920 - 320)));
+  }
+
+  button {
+    padding-bottom: 20px;
+  }
+  span, a {
+    color: #fff;
+  }
+
+  a {
+    font-size: calc(16px + 5 * ((100vw - 320px) / (1920 - 320)));
+  }
+}
+
+@media (min-width: 340px) {
+  .sliderWrapper {
+    width: 84vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sliderWrapper {
+    width: 900px;
+  }
+}

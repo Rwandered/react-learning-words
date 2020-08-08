@@ -1,0 +1,36 @@
+.cover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: rgba(0, 0, 0, .3);
+
+  .currentCard {
+
+
+    .wrap {
+
+
+      .header {
+        display: flex;
+        justify-content: space-around;
+
+        h1{
+          text-align: center;
+        }
+        svg {
+          cursor: pointer;
+          width: 30px;
+          height: 30px;
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
